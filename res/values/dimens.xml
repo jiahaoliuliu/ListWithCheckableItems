@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="list_item_horizontal_margin">20dp</dimen>
+    <dimen name="list_item_vertical_margin">10dp</dimen>
+</resources>
