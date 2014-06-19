@@ -41,6 +41,7 @@
         android:layout_centerVertical="true"
         android:layout_alignTop="@+id/countryNameTextView"
         android:layout_alignBottom="@+id/capitalNameTextView"
+        android:button="@drawable/custom_checkbox"
         />
     
 </RelativeLayout>

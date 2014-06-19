@@ -6,6 +6,7 @@ import java.util.List;
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.widget.AbsListView;
+import android.widget.ListView;
 
 import com.jiahaoliuliu.listwithcheckableitems.model.Country;
 
@@ -18,7 +19,6 @@ public class MainActivity extends ListActivity {
 		super.onCreate(savedInstanceState);
 		countries = generateCountries();
 
-		getListView().setChoiceMode(AbsListView.CHOICE_MODE_SINGLE);
 		SimpleAdapter simpleAdapter = new SimpleAdapter(this, countries);
 		setListAdapter(simpleAdapter);
 	}
